@@ -1,3 +1,0 @@
-param([string]$ServiceName)
-Restart-Service -Name $ServiceName
-Write-Output "$ServiceName restarted successfully"
